@@ -5,7 +5,7 @@
 
   function SocketService(socketFactory) {
     return socketFactory({
-      ioSocket: io.connect('http://yourserver.com:4000')
+      ioSocket: io.connect('http://webdoctorapp.localtunnel.me')
     });
   }
 })();
